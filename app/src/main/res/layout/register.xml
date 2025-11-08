@@ -6,12 +6,28 @@
     android:layout_height="match_parent"
     android:background="#000000">
 
+
+    <EditText
+        android:id="@+id/editTextEmail2"
+        android:layout_width="341dp"
+        android:layout_height="49dp"
+        android:background="#FDFDFD"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:radius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.39" />
+
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="341dp"
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="444dp"
+        android:layout_marginBottom="412dp"
         android:background="#FDFDFD"
         android:ems="10"
         android:hint="Email"
@@ -23,13 +39,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:layout_constraintVertical_bias="0.039" />
 
-
     <EditText
         android:id="@+id/editTextTextPassword9"
         android:layout_width="341dp"
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="376dp"
+        android:layout_marginBottom="352dp"
         android:background="#FDFDFD"
         android:ems="10"
         android:hint="Password"
@@ -107,27 +122,10 @@
         app:strokeWidth="3dp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword4"
-        android:layout_width="341dp"
-        android:layout_height="49dp"
-        android:layout_marginBottom="304dp"
-        android:background="#FDFDFD"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:password="true"
-        android:phoneNumber="true"
-        android:radius="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintCircleRadius="5dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
         android:id="@+id/editTextTextPassword6"
         android:layout_width="341dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="304dp"
+        android:layout_marginBottom="292dp"
         android:background="#FDFDFD"
         android:ems="10"
         android:hint="Confirm Password"
@@ -138,9 +136,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircleRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView9"
@@ -155,7 +151,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.34" />
+        app:layout_constraintVertical_bias="0.322" />
 
     <ImageView
         android:id="@+id/imageView5"
